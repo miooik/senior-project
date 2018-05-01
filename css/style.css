@@ -1628,7 +1628,7 @@ label {
     width: 102%;
     height: 150px;
     left: -1%;
-    background-color: #ffffff;
+    background-color: #206e33;
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg);
 }
@@ -1637,7 +1637,7 @@ label {
     content: "";
     display: block;
     height: 150px;
-    background-color: #ffffff;
+    background-color: #ff0505;
 }
 
 @media (min-width: 1920px) {
@@ -1689,7 +1689,7 @@ label {
     text-align: center;
     line-height: 50px;
     font-size: 17px;
-    background-color: #eff2f7;
+    background-color: #886b6b;
     border-radius: 50%;
 }
 
@@ -1701,9 +1701,9 @@ label {
     right: 4px;
     bottom: 4px;
     left: 4px;
-    background: #fff;
+    background: rgb(26, 168, 168);
     border-radius: 50%;
-    border: 1px solid #dcdfe4;
+    border: 1px solid #645426;
     z-index: 12;
 }
 
@@ -1724,7 +1724,7 @@ label {
 
 .feature-box .icon {
     position: relative;
-    border: 1px solid #eff2f7;
+    border: 1px solid #eb0606;
     border-radius: 50%;
     z-index: 1;
     display: -ms-inline-flexbox;
@@ -1743,8 +1743,8 @@ label {
     content: "";
     position: absolute;
     border-radius: 50%;
-    background-color: #eff2f7;
-    border: 1px solid #eff2f7;
+    background-color: #42cbe4;
+    border: 1px solid #c6fd5f;
     z-index: -1;
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
@@ -1770,17 +1770,17 @@ label {
 }
 
 .feature-box.icon-top .icon {
-    width: 110px;
-    height: 110px;
+    width: 200px;
+    height: 200px;
     padding: 10px;
     margin-bottom: 50px;
     font-size: 32px;
 }
 
 .feature-box.icon-top .icon:before {
-    width: 88px;
-    height: 88px;
-    top: 10px;
+    width: 180px;
+    height: 180px;
+    top: justify;
 }
 
 .feature-box.icon-top h6 {
@@ -1793,7 +1793,7 @@ label {
     margin: 20px auto;
     height: 4px;
     width: 25px;
-    background-color: #00C853;
+    background-color: rgb(200, 0, 117);
 }
 
 .feature-box.icon-left {
@@ -1826,7 +1826,7 @@ label {
     padding: 5px;
     min-width: 78px;
     height: 78px;
-    background-color: #eff2f7;
+    background-color: #aa20bd;
 }
 
 .feature-box.icon-left .icon:before,
@@ -1835,8 +1835,8 @@ label {
     height: 66px;
     top: 5px;
     left: 5px;
-    border-color: #ddddde;
-    background-color: #ffffff;
+    border-color: #a8a80a;
+    background-color: #e98b8b;
 }
 
 .feature-box.icon-left .content,
@@ -1876,11 +1876,11 @@ label {
 }
 
 .feature-box:hover .icon {
-    color: #ffffff;
+    color: #832626;
 }
 
 .feature-box:hover .icon:before {
-    background-color: #00C853;
+    background-color: rgb(20, 0, 200);
 }
 
 /*====================================================*/
