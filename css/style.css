@@ -54,10 +54,10 @@ html {
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "TH Sarabun", sans-serif;
     font-size: 14px;
     line-height: 24px;
-    color: #333333;
+    color: #666563;
     overflow-x: hidden;
     position: relative;
 }
@@ -102,7 +102,7 @@ h4,
 h5,
 h6 {
     color: inherit;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mitr", sans-serif;
     font-weight: 700;
 }
 
@@ -162,7 +162,7 @@ a.link:hover {
     padding-left: 40px;
     padding-right: 40px;
     font-size: 13px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "TH Sarabun", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     height: 48px;
@@ -1724,7 +1724,7 @@ label {
 
 .feature-box .icon {
     position: relative;
-    border: 1px solid #eb0606;
+    border: 1px solid #ffffff;
     border-radius: 50%;
     z-index: 1;
     display: -ms-inline-flexbox;
@@ -1743,8 +1743,8 @@ label {
     content: "";
     position: absolute;
     border-radius: 50%;
-    background-color: #42cbe4;
-    border: 1px solid #c6fd5f;
+    background-color: #ffffff;
+    border: 2px solid #cdbaa3;
     z-index: -1;
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
@@ -1770,16 +1770,16 @@ label {
 }
 
 .feature-box.icon-top .icon {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
     margin-bottom: 50px;
     font-size: 32px;
 }
 
 .feature-box.icon-top .icon:before {
-    width: 180px;
-    height: 180px;
+    width: 300px;
+    height: 300px;
     top: justify;
 }
 
@@ -1793,7 +1793,7 @@ label {
     margin: 20px auto;
     height: 4px;
     width: 25px;
-    background-color: rgb(200, 0, 117);
+    background-color: rgb(73, 116, 44);
 }
 
 .feature-box.icon-left {
@@ -1880,7 +1880,7 @@ label {
 }
 
 .feature-box:hover .icon:before {
-    background-color: rgb(20, 0, 200);
+    background-color: #ada397;
 }
 
 /*====================================================*/
