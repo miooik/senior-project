@@ -102,7 +102,7 @@ h4,
 h5,
 h6 {
     color: inherit;
-    font-family: "Mitr", sans-serif;
+    font-family: "ThaiSans Neue", sans-serif;
     font-weight: 700;
 }
 
@@ -162,13 +162,13 @@ a.link:hover {
     padding-left: 40px;
     padding-right: 40px;
     font-size: 13px;
-    font-family: "TH Sarabun", sans-serif;
+    font-family: "Mitr", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     height: 48px;
     letter-spacing: 0.5px;
     color: #ffffff;
-    background-color: #00C853;
+    background-color: #9d9389;
     border: 2px solid transparent;
     line-height: 0;
     display: -ms-inline-flexbox;
@@ -190,25 +190,10 @@ a.link:hover {
     height: 42px;
 }
 
-.btn.outline {
-    background-color: transparent;
-    border-color: #00C853;
-    color: #00C853;
-}
-
-.btn.outline:hover {
-    background-color: #00C853;
-    color: #ffffff;
-}
-
-.btn.outline.white {
-    border-color: #ffffff;
-    color: #ffffff;
-}
 
 .btn.outline.white:hover {
-    border-color: #00C853;
-    color: #00C853;
+    border-color: #9d9389;
+    color: #9d9389;
     background-color: transparent;
 }
 
@@ -279,8 +264,8 @@ a.link:hover {
 }
 
 .btn:hover {
-    background-color: #00E676;
-    color: #ffffff;
+    background-color: #ffeba9;
+    color: #9d9389;
 }
 
 .btn:focus {
@@ -465,102 +450,6 @@ label {
     opacity: 0;
 }
 
-/*====================================================*/
-/* 02. Preloader                                      */
-/*====================================================*/
-
-.preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background-color: #ffffff;
-}
-
-.preloader .pulse {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 50%;
-    top: 50%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transform: translate3d(-50%, -50%, 0);
-}
-
-.preloader .pulse:before,
-.preloader .pulse:after {
-    content: "";
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid #00C853;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.preloader .pulse:before {
-    -webkit-animation: pulse-outer 0.8s ease-in infinite;
-    animation: pulse-outer 0.8s ease-in infinite;
-}
-
-.preloader .pulse:after {
-    -webkit-animation: pulse-inner 0.8s linear infinite;
-    animation: pulse-inner 0.8s linear infinite;
-}
-
-@-webkit-keyframes pulse-outer {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@keyframes pulse-outer {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes pulse-inner {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
-@keyframes pulse-inner {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-    }
-}
 
 /*====================================================*/
 /* 03. Shortodes                                      */
@@ -758,6 +647,7 @@ label {
 .mockup img {
     max-width: 100% !important;
 }
+
 
 .mockup .left {
     position: absolute;
@@ -1793,7 +1683,7 @@ label {
     margin: 20px auto;
     height: 4px;
     width: 25px;
-    background-color: rgb(73, 116, 44);
+    background-color: #cdbaa3;
 }
 
 .feature-box.icon-left {

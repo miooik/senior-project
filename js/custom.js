@@ -61,3 +61,11 @@ $('#orange').hover(
   ()=>{animation4.play()},
   ()=>{animation4.stop()}
 )
+
+var animation5 = bodymovin.loadAnimation({
+  container: document.getElementById('proflie'),
+  renderer: 'svg',
+  loop: false,
+  autoplay: true,
+  path: "/js/animate/proflie/proflie.json",
+})
