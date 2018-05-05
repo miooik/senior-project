@@ -146,8 +146,8 @@ h5 {
 }
 
 h6 {
-    font-size: 15px;
-    line-height: 17px;
+    font-size: 19px;
+    line-height: 21px;
 }
 
 section {
@@ -1660,6 +1660,7 @@ label {
 }
 
 
+
 .feature-box.icon-top .icon {
     width: 300px;
     height: 300px;
@@ -1700,6 +1701,7 @@ label {
     margin-left: 15px;
 }
 
+
 .feature-box.icon-right {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -1721,6 +1723,7 @@ label {
     background-color: transparent;
 }
 
+.feature-box.icon-center .icon:before,
 .feature-box.icon-left .icon:before,
 .feature-box.icon-right .icon:before {
     width: 100px;
@@ -1730,11 +1733,13 @@ label {
     background-color: transparent;
 }
 
+.feature-box.icon-center .content,
 .feature-box.icon-left .content,
 .feature-box.icon-right .content {
     margin-top: 15px;
 }
 
+.feature-box.icon-center.content .subtitle,
 .feature-box.icon-left .content .subtitle,
 .feature-box.icon-right .content .subtitle {
     font-size: 13px;
@@ -1766,6 +1771,32 @@ label {
     align-items: flex-start;
 }
 
+
+.feature-box.icon-center {
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.feature-box.icon-center {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+.feature-box.icon-center .icon {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+}
+
 .feature-box:hover .icon {
     color: #832626;
 }
@@ -1779,7 +1810,7 @@ label {
 /*====================================================*/
 
 .page-header {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Kanit", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     position: relative;
@@ -1878,30 +1909,30 @@ label {
     color: #ffffff;
     display: block;
     line-height: 40px;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .page-header .navbar-desktop .desktop-menu ul.navbar-nav>li>a:hover,
 .page-header .navbar-desktop .desktop-menu ul.navbar-nav>li>a.active {
-    color: #00C853;
+    color: #78c4c0;
 }
 
 .page-header .navbar-desktop .desktop-menu ul.navbar-nav>li>a:focus {
-    color: #333333;
+    color: #f7d48d;
 }
 
 .page-header .navbar-desktop .desktop-menu ul.navbar-download>li>a {
     display: block;
     background-color: transparent;
-    border: 2px solid #ffffff;
+    border: 2px solid #ce0707;
     color: #ffffff;
     padding: 4px 30px;
     border-radius: 30px;
 }
 
 .page-header .navbar-desktop.affix ul.navbar-nav>li>a {
-    color: #333333;
+    color: #9d9389;
 }
 
 .page-header .navbar-desktop.affix ul.navbar-download>li>a {
