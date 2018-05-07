@@ -69,3 +69,4 @@ var animation5 = bodymovin.loadAnimation({
   autoplay: true,
   path: "/js/animate/proflie/proflie.json",
 })
+

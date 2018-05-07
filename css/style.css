@@ -642,10 +642,15 @@ label {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    
 }
 
 .mockup img {
     max-width: 100% !important;
+    height: auto;
+    
 }
 
 
@@ -655,6 +660,7 @@ label {
 
 .mockup .right {
     position: relative;
+    padding: 20px;
 }
 
 .mockup [data-zindex="1"] {
@@ -683,6 +689,9 @@ label {
 .mockup.center-img img {
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    
 }
 
 .mockup.landscape {
@@ -703,7 +712,9 @@ label {
 
 @media (max-width: 576px) {
     .mockup img {
-        max-width: 90% !important;
+        max-width: 100% !important;
+        height: auto;
+        
     }
 }
 
@@ -2057,6 +2068,7 @@ label {
 /* 06. Page Banner                                    */
 /*====================================================*/
 
+
 .page-banner {
     position: relative;
     overflow: hidden;
@@ -2102,7 +2114,7 @@ label {
     width: 10px;
     height: 10px;
     background-color: transparent;
-    border: 2px solid #ffffff;
+    border: 2px solid #ffc403;
     margin-left: 0;
     margin-right: 6px;
     border-radius: 50%;
@@ -2119,7 +2131,7 @@ label {
     left: 0;
     width: 100%;
     height: 0;
-    background-color: #ffffff;
+    background-color: #04ffc9;
     border-radius: 50%;
     -webkit-transition: height 0.35s ease;
     transition: height 0.35s ease;
@@ -2130,7 +2142,7 @@ label {
 }
 
 .page-banner.banner-slider .swiper-button {
-    background: rgba(255, 255, 255, 0.3) none;
+    background: #ce0707;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -2149,7 +2161,7 @@ label {
 .page-banner.banner-slider .swiper-button:before {
     position: absolute;
     font-family: 'swipericon';
-    color: #ffffff;
+    color: #ff2b72;
     font-size: 25px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -2221,6 +2233,8 @@ label {
     z-index: 3;
     width: 300px;
     height: 600px;
+
+    
 }
 
 .page-banner .screen-slider .owl-item .slide {
@@ -2229,14 +2243,15 @@ label {
 }
 
 .page-banner .screen-slider .owl-item .slide img {
-    width: unset;
     max-width: 100%;
+    height: auto; 
     margin: auto;
 }
 
 /*========================================*/
 /* Page Banner Responsive                 */
 /*========================================*/
+
 
 @media (max-width: 767px) {
     .page-banner.banner-minimal .banner-content {
@@ -2306,8 +2321,10 @@ label {
     .page-banner.banner-default [class^="col-"],
     .page-banner.banner-default .banner-content,
     .page-banner.banner-default .mockup {
-        height: 100%;
+        max-width: 100%;
+        height: auto; 
     }
+
     .page-banner.banner-default .banner-content {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -2315,22 +2332,25 @@ label {
     }
     .page-banner .screen-slider .owl-item.center .slide {
         padding: 17px;
+
     }
 }
 
 @media (max-width: 1200px) {
     .page-banner.banner-screen-slider {
-        max-height: 900px;
+        max-width: 100%;
+        height: auto; 
     }
 }
 
 @media (min-width: 1200px) {
     .page-banner {
-        max-height: 900px;
+        max-width: 100%;
+        height: auto; 
     }
     .page-banner .screen-slider:before {
-        width: 300px;
-        height: 600px;
+        max-width: 100%;
+        height: auto; 
     }
 }
 
@@ -2343,6 +2363,7 @@ label {
         visibility: hidden;
     }
 }
+
 
 
 /*====================================================*/
@@ -2385,14 +2406,19 @@ label {
 
 .device-slider .device img {
     max-width: 100%;
+    height: auto; 
 }
 
 .device-slider .device img.left {
     position: absolute;
+    max-width: 100%;
+    height: auto; 
 }
 
 .device-slider .device img.right {
     position: relative;
+    max-width: 100%;
+    height: auto; 
 }
 
 /*====================================================*/
