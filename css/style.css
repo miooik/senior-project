@@ -2781,7 +2781,7 @@ button.mfp-close:active:focus {
     text-align: center;
     position: relative;
     background-color: #ffffff;
-    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 10px #504f4d;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     z-index: 1;
@@ -2791,34 +2791,35 @@ button.mfp-close:active:focus {
     padding-top: 40px;
     text-align: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid #e7e8ec;
+    border-bottom: 1px solid transparent;
 }
 
 .pricing-table .pricing-header .pricing-title {
-    color: #00C853;
+    color: #9d9389;
     margin-bottom: 15px;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 24px;
+    font-family: "Playfair Display", serif;
 }
 
 .pricing-table .pricing-header .pricing span {
     display: inline-block;
 }
 
-.pricing-table .pricing-header .pricing span.currency,
-.pricing-table .pricing-header .pricing span.amount {
+.pricing-table .pricing-header .pricing span.room {
     line-height: 50px;
     font-size: 50px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mitr";
     margin-bottom: 5px;
+    color: #504f4d;
 }
 
-.pricing-table .pricing-header .pricing span.period {
+.pricing-table .pricing-header .pricing span.engroom {
     display: block;
     font-family: "Playfair Display", serif;
     font-style: italic;
-    color: #cccccc;
+    color: #9d9389;
     line-height: 24px;
 }
 
@@ -2871,7 +2872,7 @@ button.mfp-close:active:focus {
 
 @media (min-width: 992px) {
     .pricing-table.highlighted {
-        border-top: 5px solid #00C853;
+        border-top: 5px solid #ffedab;
         z-index: 2;
         margin: -15px;
         -webkit-box-shadow: 0 5px 20px 0 rgba(0, 1, 1, 0.1);
