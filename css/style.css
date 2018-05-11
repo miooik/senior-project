@@ -2263,9 +2263,9 @@ label {
         padding-top: 220px;
         padding-bottom: 70px;
     }
-    .page-banner.banner-default {
+    /* .page-banner.banner-default {
         height: 90vh;
-    }
+    } */
     .page-banner.banner-slider .swiper-pagination {
         display: none;
     }
@@ -2297,7 +2297,7 @@ label {
 
 @media (min-width: 992px) {
     .page-banner.banner-default {
-        min-height: 900px;
+        /* min-height: 900px; */
     }
     .page-banner.banner-default .container,
     .page-banner.banner-default .row,
