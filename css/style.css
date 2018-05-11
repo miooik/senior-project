@@ -583,7 +583,7 @@ label {
 }
 
 .subtitle {
-    font-family: "Playfair Display", serif;
+    font-family: "ThaiSans Neue", serif;
     font-style: italic;
     font-size: 18px;
     line-height: 25px;
@@ -602,10 +602,10 @@ label {
 .title-seperator {
     width: 1px;
     height: 50px;
-    background-color: #dddddd;
+    background-color: #eaede8;
     position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
 
 .title-seperator:after {
@@ -618,12 +618,12 @@ label {
     border-radius: 50%;
     bottom: 0;
     left: -4px;
-    background-color: #cdbaa3;
+    background-color: #ffffff;
 }
 
 .seperator {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     height: 4px;
     width: 30px;
     background: #cdbaa3;
@@ -1657,6 +1657,7 @@ label {
 
 .feature-box .content h6 {
     text-transform: uppercase;
+    color: #f7d48d;    
 }
 
 .feature-box .content p {
@@ -1726,7 +1727,7 @@ label {
 }
 
 .feature-box.icon-right .content {
-    margin-right: 15px;
+    margin-right: 15px;    
 }
 
 .feature-box.icon-left .icon,
@@ -1752,6 +1753,7 @@ label {
 .feature-box.icon-left .content,
 .feature-box.icon-right .content {
     margin-top: 15px;
+
 }
 
 .feature-box.icon-center.content .subtitle,
@@ -1759,6 +1761,7 @@ label {
 .feature-box.icon-right .content .subtitle {
     font-size: 13px;
     margin-bottom: 5px;
+
 }
 
 .feature-box.icon-left.top,
@@ -2214,9 +2217,7 @@ label {
     background-size: contain;
     z-index: 3;
     width: 300px;
-    height: 600px;
-
-    
+    height: 600px;   
 }
 
 .page-banner .screen-slider .owl-item .slide {
@@ -2590,6 +2591,9 @@ label {
 
 ul.screenshots-slider {
     list-style: none;
+    max-width: 30%;
+    height: auto;
+
 }
 
 ul.screenshots-slider .owl-stage-outer {
@@ -2601,22 +2605,27 @@ ul.screenshots-slider li.slide {
     overflow: hidden;
 }
 
+
 ul.screenshots-slider li.slide img {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
     opacity: 0.9;
     -webkit-transition: all 1.5s ease;
     transition: all 1.5s ease;
+    
+
 }
 
 ul.screenshots-slider li.slide a.mfp-image-popup {
     display: block;
     position: absolute;
+    border: 0px solid transparent;
+    border-radius: 10;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(204, 204, 204, 0.589);
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all 0.35s ease;
@@ -2626,7 +2635,7 @@ ul.screenshots-slider li.slide a.mfp-image-popup {
 ul.screenshots-slider li.slide a.mfp-image-popup:before,
 ul.screenshots-slider li.slide a.mfp-image-popup:after {
     content: "";
-    background-color: #ffffff;
+    background-color: transparent;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -2661,45 +2670,6 @@ ul.screenshots-slider li.slide:hover a.mfp-image-popup:after {
     visibility: visible;
 }
 
-ul.screenshots-slider .owl-item.active li.slide img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-}
-
-ul.screenshots-slider .owl-dots {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
-ul.screenshots-slider .owl-dots .owl-dot {
-    width: 10px;
-    height: 10px;
-    background-color: #ffffff;
-    border: 2px solid #00C853;
-    border-radius: 12px;
-    margin-right: 6px;
-    -webkit-transition: all 0.35s ease;
-    transition: all 0.35s ease;
-}
-
-ul.screenshots-slider .owl-dots .owl-dot.active {
-    background-color: #00C853;
-}
-
-ul.screenshots-slider .owl-dots .owl-dot:last-child {
-    margin-right: 0;
-}
-
-ul.screenshots-slider .owl-dots .owl-dot.active {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
 
 /*====================================================*/
 /* 12. Magnifiq popup                                 */
@@ -2712,6 +2682,7 @@ ul.screenshots-slider .owl-dots .owl-dot.active {
     backface-visibility: hidden;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+
 }
 
 .mfp-with-zoom.mfp-ready .mfp-container {
@@ -3452,6 +3423,8 @@ button.mfp-close:active:focus {
 /*========================================*/
 /* Page Footer Responsive                 */
 /*========================================*/
+/* Page Footer Responsive                 */
+/*========================================*/
 
 @media (max-width: 992px) {
     .page-footer {
@@ -3466,7 +3439,7 @@ button.mfp-close:active:focus {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) {@
     .page-footer .footer-top .footer-logo {
         text-align: left;
     }
@@ -3482,5 +3455,115 @@ button.mfp-close:active:focus {
     }
     .page-footer .footer-bottom .footer-nav {
         text-align: right;
+    }
+}
+
+
+.room-btn-image{
+    width: 15%;
+    
+}
+
+@media (max-width: 478px) {
+    .room-btn-image{
+        width: 15%;
+    }
+}
+
+@media (min-width: 576px) {
+    .room-btn-image{
+        width: 10%;
+    }
+}
+
+@media (min-width: 992px) {
+    .room-btn-image{
+        width: 5%;
+    }
+}
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.mymodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.mymodal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.mymodal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .mymodal-content {
+        width: 100%;
     }
 }
