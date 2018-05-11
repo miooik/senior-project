@@ -3460,25 +3460,25 @@ button.mfp-close:active:focus {
 
 
 .room-btn-image{
-    width: 15%;
+    width: 17%;
     
 }
 
 @media (max-width: 478px) {
     .room-btn-image{
-        width: 15%;
+        width: 17%;
     }
 }
 
 @media (min-width: 576px) {
     .room-btn-image{
-        width: 10%;
+        width: 12%;
     }
 }
 
 @media (min-width: 992px) {
     .room-btn-image{
-        width: 5%;
+        width: 7%;
     }
 }
 
@@ -3513,17 +3513,6 @@ button.mfp-close:active:focus {
 
 }
 
-/* Caption of Modal Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
 
 /* Add Animation */
 .mymodal-content, #caption {    

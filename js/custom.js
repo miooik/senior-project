@@ -85,7 +85,6 @@ var myModalBedRoom = document.getElementById('myModalBedRoom');
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var btnSunBedRoom = document.getElementById('btnSunBedRoom');
 var modalImg = document.getElementById("myimg01");
-var captionText = document.getElementById("caption");
 
 btnSunBedRoom.onclick = function(){
   myModalBedRoom.style.display = "block";
@@ -105,3 +104,17 @@ spanCloseBedRoom.onclick = function() {
   mynavbardesktop.style.display = "inherit";
   myModalBedRoom.style.display = "none"
 }
+
+
+
+var btnmoonBedRoom = document.getElementById('btnmoonBedRoom');
+
+btnmoonBedRoom.onclick = function(){
+  myModalBedRoom.style.display = "block";
+  modalImg.src = "image/bedroomnight.jpg";
+  var mynavbardesktop = document.getElementById('mynavbardesktop')
+  mynavbardesktop.style.display = "none";
+  var mynavbarmobile = document.getElementById('mynavbarmobile')
+  mynavbarmobile.style.display = "none";
+}
+
