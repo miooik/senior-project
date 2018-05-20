@@ -55,7 +55,7 @@ html {
 
 body {
     font-family: "TH Sarabun", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px;
     color: #666563;
     overflow-x: hidden;
@@ -2393,6 +2393,7 @@ label {
     position: absolute;
     top: 0;
     z-index: 3;
+
 }
 
 .device-slider .device img {
@@ -2427,7 +2428,7 @@ label {
 }
 
 .process-slider .device-slider {
-    width: 303px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -2440,6 +2441,7 @@ label {
     width: 100%;
     display: block;
     height: auto;
+
 }
 
 .process-slider .process-slider-nav {
@@ -2475,10 +2477,10 @@ label {
         align-items: center;
     }
     .process-slider .process-slider-nav .process-line {
-        background: #00C853;
+        background: #cdbaa3;
         position: absolute;
         width: 0;
-        height: 1px;
+        height: 2px;
         top: 35px;
         z-index: 3;
         -webkit-transition: all 0.35s ease;
@@ -2498,7 +2500,7 @@ label {
         position: absolute;
         width: 13px;
         height: 13px;
-        border: 2px solid #00C853;
+        border: 2px solid #cdbaa3;
         background: transparent;
         top: -6px;
         opacity: 0;
@@ -2904,7 +2906,7 @@ button.mfp-close:active:focus {
 }
 
 .faqs-accordian .device-slider .slider-wrapper {
-    width: 250px;
+    width: 500px;
     display: inline-block;
 }
 
@@ -3594,18 +3596,30 @@ button.mfp-close:active:focus {
     color: #fff;
   }
 
+
+
+
+
 @media (max-width: 478px) {
     .carousel-captionL {
-        width: 40%;
-        padding-bottom: 25px;
+        width: 45%;
+        padding-bottom: 15px;
     }
+    .carousel-captionL p {
+        display: none;
+    }
+
 }
 
 @media (max-width: 478px) {
     .carousel-captionR {
-        width: 40%;
-        left: 50%;
-        padding-bottom: 25px;
+        width: 45%;
+        left: 45%;
+        padding-bottom: 15px;
+
+    }
+    .carousel-captionR p {
+        display: none;
     }
 }
 
@@ -3653,6 +3667,28 @@ button.mfp-close:active:focus {
         padding-bottom: 260px;
     }
 
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #f7d48d; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 100%; /* Rounded corners */
+    max-width: 50px;
+    height: 50px;
+
+
+}
+
+#myBtn:hover {
+    background-color: #78c4c0; /* Add a dark-grey background on hover */
 }
 
 
