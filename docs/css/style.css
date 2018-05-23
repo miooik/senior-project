@@ -47,6 +47,27 @@
 /* 01. General Styles                                 */
 /*====================================================*/
 
+@font-face {
+    font-family: "Mitr";
+    src: url('/font/Mitr-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "ThaiSans Neue";
+    src: 
+        url('/font/ThaiSansNeue-Regular.ttf') format('truetype'),
+        url('/font/ThaiSansNeue-SemiBold.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: "Kanit";
+    src: 
+        url('/font/Kanit-Regular.ttf') format('truetype'),
+        url('/font/Kanit-SemiBold_0.ttf') format('truetype');
+}
+
+
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
