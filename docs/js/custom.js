@@ -34,7 +34,7 @@ var animation3 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: false,
-  path: "/js/animate/bothyellow/yellow.json",
+  path: "/senior-project/docs/js/animate/bothyellow/yellow.json",
 })
 
 $('#yellow').hover(
@@ -47,7 +47,7 @@ var animation4 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: false,
-  path: "/js/animate/bothorange/bothorange.json",
+  path: "/senior-project/docs/js/animate/bothorange/bothorange.json",
 })
 
 $('#orange').hover(
@@ -60,7 +60,7 @@ var animation5 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/proflie/proflie1.json",
+  path: "/senior-project/docs/js/animate/proflie/proflie1.json",
 })
 
 
@@ -75,7 +75,7 @@ var animation6 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: true,
-  path: "/js/animate/bedroom/bedroom.json",
+  path: "/senior-project/docs/js/animate/bedroom/bedroom.json",
 })
 
 var animation7 = bodymovin.loadAnimation({
@@ -83,7 +83,7 @@ var animation7 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: true,
-  path: "/js/animate/toilet/toilet2.json",
+  path: "/senior-project/docs/js/animate/toilet/toilet2.json",
 })
 
 var animation8 = bodymovin.loadAnimation({
@@ -91,7 +91,7 @@ var animation8 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: true,
-  path: "/js/animate/kitchen/kitchen.json",
+  path: "/senior-project/docs/js/animate/kitchen/kitchen.json",
 })
 
 var animation9 = bodymovin.loadAnimation({
@@ -99,7 +99,7 @@ var animation9 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: true,
-  path: "/js/animate/outdoor/outdoor.json",
+  path: "/senior-project/docs/js/animate/outdoor/outdoor.json",
 })
 
 
@@ -108,7 +108,7 @@ var animation10 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/doorbr/door.json",
+  path: "/senior-project/docs/js/animate/doorbr/door.json",
 })
 
 $('#door').hover(
@@ -121,7 +121,7 @@ var animation11 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/bedbr/bed.json",
+  path: "/senior-project/docs/js/animate/bedbr/bed.json",
 })
 
 $('#bed').hover(
@@ -134,7 +134,7 @@ var animation12 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/ferniturebr/fer.json",
+  path: "/senior-project/docs/js/animate/ferniturebr/fer.json",
 })
 
 $('#ferbr').hover(
@@ -147,7 +147,7 @@ var animation13 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/lampbr/lamp.json",
+  path: "/senior-project/docs/js/animate/lampbr/lamp.json",
 })
 
 $('#lamp').hover(
@@ -160,7 +160,7 @@ var animation14 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/zingtl/zing.json",
+  path: "/senior-project/docs/js/animate/zingtl/zing.json",
 })
 
 $('#zing').hover(
@@ -173,7 +173,7 @@ var animation15 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/wctl/wc.json",
+  path: "/senior-project/docs/js/animate/wctl/wc.json",
 })
 
 $('#wc').hover(
@@ -186,7 +186,7 @@ var animation16 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/doortl/doortl.json",
+  path: "/senior-project/docs/js/animate/doortl/doortl.json",
 })
 
 $('#doortl').hover(
@@ -200,7 +200,7 @@ var animation17 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/showertl/shower.json",
+  path: "/senior-project/docs/js/animate/showertl/shower.json",
 })
 
 $('#shower').hover(
@@ -213,7 +213,7 @@ var animation18 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/floortl/floortl.json",
+  path: "/senior-project/docs/js/animate/floortl/floortl.json",
 })
 
 $('#floortl').hover(
@@ -226,7 +226,7 @@ var animation19 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/zingkt/zingkt.json",
+  path: "/senior-project/docs/js/animate/zingkt/zingkt.json",
 })
 
 $('#zingkt').hover(
@@ -239,7 +239,7 @@ var animation20 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/ovenkt/ovenkt.json",
+  path: "/senior-project/docs/js/animate/ovenkt/ovenkt.json",
 })
 
 $('#ovenkt').hover(
@@ -252,7 +252,7 @@ var animation21 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/winkt/winkt.json",
+  path: "/senior-project/docs/js/animate/winkt/winkt.json",
 })
 
 $('#winkt').hover(
@@ -265,7 +265,7 @@ var animation22 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/ferkt/ferkt.json",
+  path: "/senior-project/docs/js/animate/ferkt/ferkt.json",
 })
 
 $('#ferkt').hover(
@@ -278,7 +278,7 @@ var animation23 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/house/house.json",
+  path: "/senior-project/docs/js/animate/house/house.json",
 })
 
 $('#house').hover(
@@ -292,7 +292,7 @@ var animation24 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/stairos/stairos.json",
+  path: "/senior-project/docs/js/animate/stairos/stairos.json",
 })
 
 $('#stairos').hover(
@@ -305,7 +305,7 @@ var animation25 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/flowerpot/flowerpot.json",
+  path: "/senior-project/docs/js/animate/flowerpot/flowerpot.json",
 })
 
 $('#flower').hover(
@@ -319,7 +319,7 @@ var animation26 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/flooros/flooros.json",
+  path: "/senior-project/docs/js/animate/flooros/flooros.json",
 })
 
 $('#flooros').hover(
@@ -332,7 +332,7 @@ var animation27 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: "/js/animate/rimos/rimos.json",
+  path: "/senior-project/docs/js/animate/rimos/rimos.json",
 })
 
 $('#rim').hover(
