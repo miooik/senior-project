@@ -4,7 +4,7 @@ var animation2 = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: false,
-  path: "../js/animate/bothgreen/bothgreen.json",
+  path: "/docs/js/animate/bothgreen/bothgreen.json",
 })
 
 
