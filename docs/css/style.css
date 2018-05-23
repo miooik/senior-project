@@ -49,22 +49,22 @@
 
 @font-face {
     font-family: "Mitr";
-    src: url('/font/Mitr-SemiBold.ttf') format('truetype');
+    src: url('/senior-project/docs/font/Mitr-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "ThaiSans Neue";
     src: 
-        url('/font/ThaiSansNeue-Regular.ttf') format('truetype'),
-        url('/font/ThaiSansNeue-SemiBold.ttf') format('truetype');
+        url('/senior-project/docs/font/ThaiSansNeue-Regular.ttf') format('truetype'),
+        url('/senior-project/docs/font/ThaiSansNeue-SemiBold.ttf') format('truetype');
 
 }
 
 @font-face {
     font-family: "Kanit";
     src: 
-        url('/font/Kanit-Regular.ttf') format('truetype'),
-        url('/font/Kanit-SemiBold_0.ttf') format('truetype');
+        url('/senior-project/docs/font/Kanit-Regular.ttf') format('truetype'),
+        url('/senior-project/docs/font/Kanit-SemiBold_0.ttf') format('truetype');
 }
 
 
