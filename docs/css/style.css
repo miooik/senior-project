@@ -57,7 +57,7 @@
     src: 
         url('/senior-project/docs/font/ThaiSansNeue-Regular.ttf') format('truetype'),
         url('/senior-project/docs/font/ThaiSansNeue-ExtraBold.ttf') format('truetype');
-    letter-spacing: 10px;
+    letter-spacing: 50px;
 
 }
 
