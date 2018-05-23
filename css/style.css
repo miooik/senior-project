@@ -73,6 +73,7 @@ ul {
 }
 
 a {
+    font-family: "Mitr", sans-serif;
     color: inherit;
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
@@ -3382,6 +3383,7 @@ button.mfp-close:active:focus {
 }
 
 .page-footer .footer-logo {
+    font-family: "Montserrat", sans-serif;
     display: block;
     font-weight: 600;
     font-size: 22px;
@@ -3405,7 +3407,7 @@ button.mfp-close:active:focus {
 }
 
 .page-footer ul.footer-nav li a {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     display: block;
     text-transform: uppercase;
@@ -3602,6 +3604,7 @@ button.mfp-close:active:focus {
 
 @media (max-width: 478px) {
     .carousel-captionL {
+
         width: 45%;
         padding-bottom: 15px;
     }

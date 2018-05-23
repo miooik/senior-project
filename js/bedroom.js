@@ -14,16 +14,6 @@ btnSunBedRoom.onclick = function(){
   mynavbarmobile.style.display = "none";
 }
 
-// Get the <span> element that closes the modal
-var spanCloseBedRoom = document.getElementById("spanCloseBedRoom");
-
-// When the user clicks on <span> (x), close the modal
-spanCloseBedRoom.onclick = function() { 
-  var mynavbardesktop = document.getElementById('mynavbardesktop')
-  mynavbardesktop.style.display = "inherit";
-  myModalBedRoom.style.display = "none"
-}
-
 
 var btnmoonBedRoom = document.getElementById('btnmoonBedRoom');
 
@@ -47,6 +37,17 @@ btnScaleBedRoom.onclick = function(){
   var mynavbarmobile = document.getElementById('mynavbarmobile')
   mynavbarmobile.style.display = "none";
 }
+
+// Get the <span> element that closes the modal
+var spanCloseBedRoom = document.getElementById("spanCloseBedRoom");
+
+// When the user clicks on <span> (x), close the modal
+spanCloseBedRoom.onclick = function() { 
+  var mynavbardesktop = document.getElementById('mynavbardesktop')
+  mynavbardesktop.style.display = "inherit";
+  myModalBedRoom.style.display = "none"
+}
+
 
 
 // When the user scrolls down 20px from the top of the document, show the button
