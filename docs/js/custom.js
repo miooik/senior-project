@@ -1,17 +1,10 @@
-var animation = bodymovin.loadAnimation({
-  container: document.getElementById('bm'),
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: "/js/animate/shot/shot.json",
-})
 
 var animation2 = bodymovin.loadAnimation({
   container: document.getElementById('green'),
   renderer: 'svg',
   loop: true,
   autoplay: false,
-  path: "/js/animate/bothgreen/bothgreen.json",
+  path: "../js/animate/bothgreen/bothgreen.json",
 })
 
 
