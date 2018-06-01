@@ -3388,7 +3388,7 @@ button.mfp-close:active:focus {
 }
 
 .page-footer .footer-top {
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
 
 .page-footer .footer-top:after {
@@ -3402,9 +3402,6 @@ button.mfp-close:active:focus {
     opacity: 0.1;
 }
 
-.page-footer .footer-bottom {
-    padding-top: 40px;
-}
 
 .page-footer .footer-logo {
     font-family: "Montserrat", sans-serif;
@@ -3414,10 +3411,12 @@ button.mfp-close:active:focus {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     line-height: 48px;
+    list-style: none;
 }
 
 .page-footer ul.footer-nav {
     display: block;
+    
     list-style: none;
 }
 
